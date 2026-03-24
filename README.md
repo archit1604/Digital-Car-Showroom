@@ -14,35 +14,35 @@ This repo contains a react web app with FastAPI backend integrated with Langchai
 
 ## Project Structure
 
-Backend/
-│
-├── FastAPI/
-  │  
-  ├── auth_utils.py
-  ├── carAgent.py
-  ├── database.py
-  ├── jwt.py
-  ├── models.py
-  ├── requirements.txt
+Backend/  
+│  
+├── FastAPI/  
+--│    
+--├── auth_utils.py  
+--├── carAgent.py  
+--├── database.py  
+--├── jwt.py  
+--├── models.py  
+--├── requirements.txt  
 ├── uv.lock
 
-Frontend/
-│
-├── node_modules/
-├── public/
-├── src/
-  ├── components/
-    ├── AdminPanel.jsx
-    ├── Filter.jsx
-    ├── Login.jsx
-    ├── Signup.jsx
-    ├── VehicleCard.jsx
-    ├── VehicleDetails.jsx
-    ├── VehicleList.jsx
-  ├── Api.js
-  ├── App.css
-  ├── App.js
-  ├── index.css
-  ├── index.js
-├── package-lock.json
-├── package.json
+Frontend/  
+│  
+├── node_modules/  
+├── public/  
+├── src/  
+--├── components/  
+---    ├── AdminPanel.jsx  
+---    ├── Filter.jsx  
+---    ├── Login.jsx  
+---    ├── Signup.jsx  
+---    ├── VehicleCard.jsx  
+---    ├── VehicleDetails.jsx  
+---    ├── VehicleList.jsx  
+--├── Api.js  
+--├── App.css  
+--├── App.js  
+--├── index.css  
+--├── index.js  
+├── package-lock.json  
+├── package.json  
