@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+sqlalchemy
+bcrypt==3.2.2
+passlib[bcrypt]
+python-jose
+ipykernel>=6.29.5
+langchain-core>=0.3.15
+langchain-openai>=0.2.5
+langsmith>=0.1.139
+langchain-community>=0.3.5
+langchain>=0.3.7
+docarray>=0.40.0
+
+google-search-results>=2.4.2
