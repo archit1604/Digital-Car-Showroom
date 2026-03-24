@@ -1,31 +1,48 @@
-# Getting Started with Create React App
+## Digital Car Showroom
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repo contains a react web app with FastAPI backend integrated with Langchain for a generated salespitch.
 
-## Available Scripts
+## Features:
+- **FastAPI - backend**
+- **ReactJS - frontend**
+- **User Authentication**
+- **Langchain**
+- **Agent Creation**
+- **Tool Calling**
+- **Prompting**
+- **SQLAlechemy - database(local storage)**
 
-In the project directory, you can run:
+## Project Structure
 
-### `npm start`
+Backend/
+│
+├── FastAPI/
+  │  
+  ├── auth_utils.py
+  ├── carAgent.py
+  ├── database.py
+  ├── jwt.py
+  ├── models.py
+  ├── requirements.txt
+├── uv.lock
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-# Steps to create new React App
-
-npx create-react-app digital-car-showroom\
-cd digital-car-showroom\
-npm install react-router-dom\
-npm start
-
-# To add material UI:
-
-npm install @mui/material @mui/icons-material @emotion/react @emotion/styled
-
-# Backend Requirements:
-
-All requirements are present in "requirements.txt" file in backend folder.\
-Make sure to install bcrypt version: [pip install bcrypt==3.2.2] and then "pip install passlib[bcrypt]".
+Frontend/
+│
+├── node_modules/
+├── public/
+├── src/
+  ├── components/
+    ├── AdminPanel.jsx
+    ├── Filter.jsx
+    ├── Login.jsx
+    ├── Signup.jsx
+    ├── VehicleCard.jsx
+    ├── VehicleDetails.jsx
+    ├── VehicleList.jsx
+  ├── Api.js
+  ├── App.css
+  ├── App.js
+  ├── index.css
+  ├── index.js
+├── package-lock.json
+├── package.json
